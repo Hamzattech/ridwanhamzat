@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed&display=swap');
 *{
@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'Segoe UI';
     font-size: 20px;
+}
+body{
+    font-family: 'Seogoe UI';
 }
 /* hr{
     border: 1px solid #800020;
