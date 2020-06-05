@@ -209,8 +209,17 @@ i{
         color: navy;
         font-weight: bold;
     }
+    .social{
+        color: #151a15;
+    }
+    .social + .social{
+        margin-left: 20px;
+    }
  }
  @media (max-width:700px){
+     *{
+         font-size:17px ;
+     }
     .toggle-button{
         display: flex;
     }
@@ -233,6 +242,17 @@ i{
     }
     .navbar-links.active{
         display: flex;
+    }
+    .social{
+        color: #151a15;
+    }
+    .social + .social{
+        margin-left: 20px;
+    }
+ }
+ @media (max-width:320px){
+    .social + .social{
+        margin-left: 12px;
     }
  }
 
