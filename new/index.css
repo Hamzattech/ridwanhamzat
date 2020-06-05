@@ -7,26 +7,26 @@
     box-sizing: border-box;
     font-family: 'Segoe UI';
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2.0;
 }
 body{
     font-family: 'Seogoe UI';
 }
-/* hr{
-    border: 1px solid #800020;
-    margin-top: 10px;
-    margin-bottom: 10px;
-} */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #800020;
-    color: orange;
+    background-color: navy;
+    color: #fffdd0;
 }
 .brand-title{
     font-size: 1.5rem;
     margin: .5rem;
+    
+}
+.logo{
+    width: 30px;
+    height: auto;
 }
 .navbar-links ul {
     margin: 0;
@@ -35,13 +35,12 @@ body{
 }
 .navbar-links li{
     list-style: none;
-
 }
 .navbar-links li a {
     text-decoration: none;
-    color: orange;
     padding: 1rem;
     display: block;
+    color: #fffdd0;
 }
 .navbar-links li:hover{
     background-color: rgb(109, 71, 71);
@@ -55,24 +54,21 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 1.5em;
 }
 .toggle-button .bar{
     height: 3px;
     width: 100%;
-    background-color: orange;
+    background-color: #fffdd0;
     border-radius: 10px;
 }
-.header{
-    background-color: #800020;
-    padding: 1em;
-}
+
 .about_me{
-    background-color: orange;
+    background-color: #d2b48c;
     padding: 1em;
 }
 .xperience{
-    background-color: orange;
+    background-color: #d2b48c;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -82,30 +78,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.navi{
-    color: white;
-    visibility: hidden;
-}
-.navigations{
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-
-}
-.nav-links{
-    text-decoration: none;
-    color:orange;
-}
-.nav-links:hover{
-    text-decoration: none;
-    color:orangered;
-    background-color: #5f4a4a;
-    width: 100%;
-
-}
-.nav-links + .nav-links{
-    margin-left: 1em;
 }
 .aboutRow{
     display: flex;
@@ -117,40 +89,39 @@ body{
     margin-bottom: 1em;
 }
 .xa,.proj{
-    color: #800020;
+    color: navy;
 }
 .mm{
-    border: 2px solid yellow;
-    background-color: #800020;
+    border: 2px solid #fffdd0;
     padding: .5em 1em;
-    color: yellow;
+    color: #fffdd0;
+    background-color: navy;
     font-weight: 400;
     text-decoration: none;
     border-radius: 30px ;
 }
 .mm:hover{
-    padding: 16px;
-    background-color: orange;
-    color: #800020;
+    padding: .5em 1.3em;
+    color: navy;
     font-weight: bolder;
+    background-color: transparent;
+    border-color: navy;
 }
 #link{
     margin-top: 1em;
 }
 .projects{
-    background-color: #800020;
+    background-color: navy;
     padding: 1em;
 }
 .projRow{
     display: flex;
     text-align: center;
     font-size: 15px;
-
-    color: orange;
+    color: #fffdd0;
 }
 .proCol{
-
-    width: 100%;
+ width: 100%;
 }
 .description{
     font-size: 15px;
@@ -160,25 +131,28 @@ body{
     }
 
 .proj{
-color: orange;
+color: #fffdd0;
 text-align: center;
 margin-bottom: 1em;
 }
 .footer{
     display: flex;
-    background-color: #800020;
+    background-color: navy;
     padding: .5em;
     justify-content: center;
-    color: orange;
+    color: #fffdd0;
 }
 .contact_me{
-    background-color: orange;
+    background-color: #d2b48c;
     padding: 1em;
 }
 .cMeRow{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.pro{
+    font-size: larger;
 }
 
 .social{
@@ -192,10 +166,7 @@ margin-bottom: 1em;
     margin-bottom: 1em;
 }
 i{
-    color: #800020;
-}
-#nav{
-    color: orange;
+    color: navy;
 }
 .fig:hover{
     transform: scale(1.1);
@@ -203,10 +174,6 @@ i{
 }
 .footerr{
     text-align: center;
-}
-.logo{
-    width: 70px;
-    height: auto;
 }
 @media (max-width: 600px)
 {
@@ -218,7 +185,7 @@ i{
         text-align: center;
         font-size: 12px;
         flex-direction: column;
-        color: orange;
+        color: #d2b48c;
     }
     .proCol{
         margin-bottom: 1em;
@@ -237,9 +204,9 @@ i{
     
     }
     .mm:hover{
-        padding: 13px;
-        background-color: orange;
-        color: #800020;
+        padding: .5em 1.2em;
+        background-color: transparent;
+        color: navy;
         font-weight: bold;
     }
  }
