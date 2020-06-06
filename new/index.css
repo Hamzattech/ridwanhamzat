@@ -250,6 +250,9 @@ i {
     .footerr {
         font-size: 14px;
     }
+    .cont {
+        font-size: 14px;
+    }
 }
 
 @media (max-width:700px) {
