@@ -62,10 +62,15 @@ body{
     background-color: #fffdd0;
     border-radius: 10px;
 }
+.image{
+    border:2px solid #fffdd0;
+    border-radius: 50%;
+}
 
 .about_me{
     background-color: #d2b48c;
     padding: 1em;
+   
 }
 .xperience{
     background-color: #d2b48c;
@@ -214,6 +219,9 @@ i{
     }
     .social + .social{
         margin-left: 20px;
+    }
+    .footerr{
+        font-size: 14px;
     }
  }
  @media (max-width:700px){
