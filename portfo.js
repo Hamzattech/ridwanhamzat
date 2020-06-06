@@ -4,10 +4,6 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 toggleButton.addEventListener('click', ()=>{
     navbarLinks.classList.toggle('active')
 })
-mybutton = document.getElementById("myBtn");
-
-window.onscroll = function() {scrollFunction()};
-
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
