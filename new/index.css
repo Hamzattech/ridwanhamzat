@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-    width: 30px;
+    width: 25px;
     height: auto;
 }
 
@@ -55,17 +55,17 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 1.4rem;
     right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 1.5em;
+    width: 20px;
+    height: 1.0em;
 }
 
 .toggle-button .bar {
-    height: 3px;
+    height: 1px;
     width: 100%;
     background-color: #fffdd0;
     border-radius: 10px;
@@ -248,6 +248,10 @@ i {
         align-items: flex-end;
         justify-items: right;
     }
+    .home{
+        font-weight: lighter;
+        line-height: 1.2;
+    }
     .navigations {
         visibility: hidden;
     }
@@ -275,7 +279,8 @@ i {
     }
     #myBtn {
         font-size: 18px;
-        font-weight: bold;
+        font-weight: lighter;
+        padding: 2px 4px;
     
       }
 }
@@ -313,6 +318,12 @@ i {
     .social+.social {
         margin-left: 20px;
     }
+    #myBtn {
+        font-size: 18px;
+        font-weight: lighter;
+        padding: 2px 4px;
+    
+      }
 }
 
 @media (max-width:320px) {
