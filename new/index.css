@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI';
+    font-family: 'Montserrat';
     font-size: 20px;
     line-height: 2.0;
 }
@@ -72,14 +72,31 @@ body {
 }
 
 .image {
-    border: 2px solid #fffdd0;
-    border-radius: 50%;
+    border: 1px solid #fffdd0;
+    border-radius: 100px;
 }
 
 .about_me {
     background-color: #d2b48c;
     padding: 1em;
 }
+.mm1 {
+    border: 2px solid navy;
+    padding: .5em 1em;
+    color: navy;
+    background-color: #fffdd0;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.mm1:hover {
+    padding: .5em 1.3em;
+    color: #fffdd0;
+    font-weight: bolder;
+    background-color: transparent;
+    border-color: #fffdd0;
+    background-color: navy;}
 
 .xperience {
     background-color: #d2b48c;
@@ -172,6 +189,9 @@ body {
     background-color: #d2b48c;
     padding: 1em;
 }
+.aboutme{
+    color: navy;
+}
 
 .cMeRow {
     display: flex;
@@ -185,6 +205,9 @@ body {
 
 .social {
     color: #151a15;
+}
+.fab:hover{
+    color:#151a15;
 }
 
 .social+.social {
