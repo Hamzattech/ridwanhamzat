@@ -207,6 +207,7 @@
 
         .social {
             color: #151a15;
+
         }
         .fab:hover{
             color:#151a15;
@@ -339,6 +340,7 @@
             }
             .social {
                 color: #151a15;
+                width:10px;
             }
             .social+.social {
                 margin-left: 20px;
