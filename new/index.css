@@ -89,7 +89,7 @@
             background-color: #fffdd0;
             font-weight: 400;
             text-decoration: none;
-            border-radius: 30px;
+            border-radius: 100px;
         }
 
         .mm1:hover {
@@ -343,7 +343,7 @@
                 width:10px;
             }
             .social+.social {
-                margin-left: 20px;
+                margin-left: 12px;
             }
             #myBtn {
                 font-size: 18px;
