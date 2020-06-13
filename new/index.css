@@ -257,12 +257,11 @@
 
         @media (max-width: 600px) {
             * {
-                font-size: 17px;
+                font-size: 12px;
             }
             .projRow {
                 display: flex;
                 text-align: center;
-                font-size: 12px;
                 flex-direction: column;
                 color: #d2b48c;
             }
@@ -297,14 +296,8 @@
             .social+.social {
                 margin-left: 20px;
             }
-            .footerr {
-                font-size: 14px;
-            }
-            .cont {
-                font-size: 14px;
-            }
+           
             #myBtn {
-                font-size: 18px;
                 font-weight: lighter;
                 padding: 2px 4px;
             
@@ -313,7 +306,7 @@
 
         @media (max-width:700px) {
             * {
-                font-size: 17px;
+                font-size: 14px;
             }
             .toggle-button {
                 display: flex;
