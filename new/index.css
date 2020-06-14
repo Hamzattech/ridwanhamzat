@@ -313,6 +313,7 @@
             }
             .navbar-links {
                 display: none;
+                margin-left: 0;
             }
             .navbar {
                 flex-direction: column;
