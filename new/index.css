@@ -257,7 +257,7 @@
 
         @media (max-width: 600px) {
             * {
-                font-size: 12px;
+                font-size: 14px;
             }
             .projRow {
                 display: flex;
@@ -306,7 +306,7 @@
 
         @media (max-width:700px) {
             * {
-                font-size: 14px;
+                font-size: 16px;
             }
             .toggle-button {
                 display: flex;
