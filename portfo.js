@@ -19,8 +19,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 $("document").ready(function(){
-  $("#xperience").mouseover(function(){
-  $(".xa").fadeIn(500);
+  $("#xperience").mouseenter(function(){
   $(".xp").slideDown(8000);
 });
 
