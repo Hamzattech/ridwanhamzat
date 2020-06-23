@@ -6,7 +6,7 @@
         margin: 0;
         box-sizing: border-box;
         font-family: 'Montserrat','Segoe UI';
-        font-size: 20px;
+        font-size: 18px;
         line-height: 2.0;
     }
 
@@ -76,8 +76,7 @@
             .image {
                 border: 4px solid #fffdd0;
                 border-radius: 100px;
-                box-shadow: 5px 5px 20px black;
-                box-shadow: -5px -5px 20px black;
+              
             }
 
             .about_me {
@@ -127,9 +126,6 @@
 
             .aboutCol {
                 margin-bottom: 1em;
-            }
-            .xp{
-                display: none;
             }
 
             .xa, .proj {
@@ -329,9 +325,9 @@
                     font-size: 16px;
                 }
                 .image {
-                    border: 4px solid #fffdd0;
-                   width: 200px;
-                   height: 200px;
+                    border: 2px solid #fffdd0;
+                   width: 250px;
+                   height: 280px;
                 }
     
                 .toggle-button {
