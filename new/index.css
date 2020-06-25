@@ -51,6 +51,7 @@
 
             .navbar-links li:hover {
                 background-color: rgb(109, 71, 71);
+                border-radius: 5px;
             }
             .toggle-button {
                 position: absolute;
@@ -219,12 +220,39 @@
             }
             .fab:hover{
                 color:#151a15;
+                transform: scale(1.1);
             }
 
             .social+.social {
                 margin-left: 50px;
                 margin-top: 1em;
             }
+            #design{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 1rem;
+                align-items: center;
+
+            }
+            .designLink{
+                text-decoration: none;
+                color: navy;
+                background-color: transparent;
+                width: 10rem;
+                border-radius: 10px ;
+                border: 2px solid navy;
+                font-weight: 400;
+                box-shadow: 5px 5px 10px black;
+         }
+         .designLink:hover{
+             color: black;
+             border: 2px solid black;
+             width: 10.5rem;
+             transform: scale(1.1);
+             box-shadow: 2px 2px 4px black;
+
+         }
 
             .cont {
                 margin-bottom: 1em;
@@ -291,6 +319,7 @@
                 .home{
                     font-weight: lighter;
                     line-height: 1.2;
+                    margin-left: -10px;
                 }
                 .navigations {
                     visibility: hidden;
