@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="new/index.css">
     <link rel="stylesheet" href="new\cs\all.css">
     <script src="my_jquery.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -64,7 +65,7 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     </section>
     <hr style="border-color: #fffdd0;">
-    <section class="xperience" id="xperience">
+    <section class="xperience" id="xperience"  data-aos="fade-up">
         <h1 class="xa">Experience and Accomplishment</h1>
         <p class="xp">I have 5 years experience with coding,exploring all the trending technologies.From Java, to C++ to c#,I
             finally found a career in <span style="color: navy;">Web development</span>.
@@ -85,7 +86,7 @@
         </p>
         <div id="link"> <a href="mailto:ridwanulllah@gmail.com" class="mm">Hit me up</a></div>
     </section>
-    <section class="projects" id="projects">
+    <section class="projects" id="projects"  data-aos="fade-up">
         <h1 class="proj">Projects I have worked on</h1>
         <div class="projRow">
             <div class="proCol">
@@ -141,7 +142,13 @@
   
 
     <script src="portfo.js"></script>
-   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration:500,
+          offset:400
+      });
+    </script>
 </body>
 
 </html>
