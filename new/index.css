@@ -175,6 +175,7 @@
             }
             figure{
                 margin-top: 20px;
+                margin-bottom: 20px;
             }
 
             .description {
@@ -291,6 +292,17 @@
         font-weight: lighter;
         padding: 2px 4px;
     
+      }
+      #vc{
+          color: #d2b48c;
+          text-decoration: none;
+          border: 2px solid #fffdd0;
+          padding: 5px;
+          border-radius: 10px;
+          box-shadow: 1px 1px 10px white;
+      }
+      #vc:hover{
+        padding: 10px;
       }
   
         
