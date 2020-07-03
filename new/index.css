@@ -76,7 +76,7 @@
 
             .image {
                 border: none;
-                border-radius: 2px solid #fffdd0;
+                border-radius: 100px;
            
             }
             #aboutcol{
@@ -384,8 +384,7 @@
                 }
                 .image {
                     border: none;
-         
-                     border-radius:2px solid #fffdd0;
+                     border-radius: 100px;
                      width: 280px;
                     height: 370px;
 
