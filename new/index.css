@@ -79,6 +79,10 @@
                 border-radius: 100px;
               
             }
+            .dev{
+            
+                
+            }
 
             .about_me {
                 background-color: #d2b48c;
@@ -172,6 +176,9 @@
             .proCol {
                 width: 100%;
                 box-shadow: 3px 3px 10px #151a15;
+            }
+            .proCol:hover{
+                transform: scaleY(1.02);
             }
             figure{
                 margin-top: 20px;
