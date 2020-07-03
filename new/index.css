@@ -75,14 +75,23 @@
             }
 
             .image {
-                border: 2px solid #fffdd0;
+                border: none;
                 border-radius: 100px;
               
             }
-            .dev{
-            
-                
+            #aboutcol{
+                border: 2px solid #fffdd0;
+                border-radius: 100px;
+
+
             }
+            .tt{
+                font-size: smaller;
+                margin-left: 10px;
+
+                padding: 2px;
+            }
+            
 
             .about_me {
                 background-color: #d2b48c;
@@ -131,6 +140,7 @@
 
             .aboutCol {
                 margin-bottom: 1em;
+        
             }
 
             .xa, .proj {
@@ -373,7 +383,7 @@
                     font-size: 16px;
                 }
                 .image {
-                    border: 2px solid #fffdd0;
+                    border: none;
 
                 }
     
