@@ -385,7 +385,7 @@
                 .image {
                     border: none;
          
-        
+                     border-radius:2px solid #fffdd0;
                      width: 280px;
                     height: 370px;
 
