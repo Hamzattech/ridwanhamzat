@@ -122,7 +122,7 @@
                 padding: 1em;
                 display: flex;
                 flex-direction: column;
-                text-align: center;
+                text-align: left;
             }
 
             .navRow {
@@ -134,8 +134,8 @@
             .aboutRow {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                text-align: center;
+                align-items:left;
+                text-align: left;
             }
 
             .aboutCol {
@@ -178,7 +178,7 @@
 
             .projRow {
                 display: flex;
-                text-align: center;
+                text-align: left;
                 font-size: 15px;
                 color: #fffdd0;
             }
@@ -203,7 +203,7 @@
 
             .proj {
                 color: #fffdd0;
-                text-align: center;
+                text-align: left;
                 margin-bottom: 1em;
             }
 
@@ -211,7 +211,7 @@
                 display: flex;
                 background-color: navy;
                 padding: .5em;
-                justify-content: center;
+                justify-content: left;
                 color: #fffdd0;
             }
 
@@ -226,7 +226,7 @@
             .cMeRow {
                 display: flex;
                 flex-direction: column;
-                text-align: center;
+                text-align: left;
             }
 
             .pro {
@@ -249,9 +249,9 @@
             #design{
                 display: flex;
                 flex-direction: column;
-                text-align: center;
+                text-align: left;
                 margin-top: 1rem;
-                align-items: center;
+                align-items: left;
 
             }
             .designLink{
