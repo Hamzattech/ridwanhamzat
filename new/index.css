@@ -302,13 +302,9 @@
                 border-radius: 50%;
                 font-size: 18px;
                 font-weight: lighter;
-                padding: 2px 4px;
+                padding: 3px 12px;
  }
-         #myBtn {
-        font-size: 18px;
-        font-weight: lighter;
-        padding: 2px 4px;
-    
+        
       }
       #vc{
           color: #d2b48c;
@@ -373,7 +369,7 @@
             
                 #myBtn {
                     font-weight: lighter;
-                    padding: 2px 4px;
+                    padding: 3px 12px;
                 
                 }
             }
@@ -424,7 +420,7 @@
                 #myBtn {
                     font-size: 18px;
                     font-weight: lighter;
-                    padding: 1px 2px;
+                    padding: 3px 12px;
                 
                 }
                 .footerr {
