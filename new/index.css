@@ -294,8 +294,7 @@
                 position: fixed; 
                 bottom: 20px;
                 right: 30px; 
-                z-index: 99; 
-                border: 1px solid #d3c910;
+                z-index: 10; 
                 background-color: navy;
                 color: #d2b48c; 
                 cursor: pointer; 
@@ -304,8 +303,11 @@
                 font-weight: lighter;
                 padding: 3px 12px;
  }
+ #arrow{
+     color: #d2b48c;
+     z-index: 100;
+ }
         
-      }
       #vc{
           color: #d2b48c;
           text-decoration: none;
