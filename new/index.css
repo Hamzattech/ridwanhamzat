@@ -99,13 +99,6 @@
                 
                 }
 
-            #dev{            
-                    font-size: smaller;
-                    margin-left: 10px;
-                    padding: 2px;
-                }
-                
-
                 .about_me {
                     background-color: #0077B6;
                     padding: 2em;
@@ -156,9 +149,7 @@
 
                 .aboutCol {
                     margin-bottom: 1em;
-                    
-            
-                }
+                  }
                 
 
                 .xa, .xp {
