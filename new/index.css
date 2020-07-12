@@ -388,7 +388,7 @@
                     margin-top: 1rem;
                 }
                 
-            .xa{
+            .xa,xp{
          
                 width: 100%;
                 text-align: center;
@@ -497,7 +497,10 @@
                 .social+.social {
                     margin-left: 20px;
                 }
-            
+                 .xp,.xa{
+                   width:100%;
+                   text-align:center;
+                  }
                 #myBtn {
                     font-weight: lighter;
                     padding: 3px 12px;
