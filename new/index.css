@@ -266,7 +266,6 @@
                     text-decoration: none;
                     color: #ADE8F4;
                     background-color: transparent;
-                    width: 10rem;
                     border-radius: 5px ;
                     border: 1px solid #ADE8F4;
                     font-weight: lighter;
@@ -275,7 +274,6 @@
                 
             }
             .designLink:hover{
-                width: 10.5rem;
                 transform: scale(1.1);
 
             }
