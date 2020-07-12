@@ -112,8 +112,8 @@
                     color: #ADE8F4;
 
                 }
-                .mm1 {
-                    padding: 1em 1.5em;
+                .mm1,.mm {
+                    padding: 1.2em 1.7em;
                     color: #ADE8F4;
                     background-color: transparent;
                     font-weight: 400;
@@ -121,11 +121,9 @@
                     border-radius: 5px;
                     border: 2px solid #ADE8F4;
                     font-size: 1rem;
-                    
-                    
-                }
+                   }
 
-                .mm1:hover {
+                .mm1:hover,.mm:hover {
                     color: navy;
                     background-color: transparent;
                     border-color: #fffdd0;
@@ -167,26 +165,6 @@
                     color: #CAf0f8;
                     width: 80%;
                     text-align: center;
-                }
-
-                .mm {
-                    padding: 1em 1.5em;
-                    color: #ADE8F4;
-                    background-color: transparent;
-                    font-weight: 400;
-                    text-decoration: none;
-                    border-radius: 5px;
-                    border: 2px solid #ADE8F4;
-                    font-size: 1rem;
-                    
-                    
-                }
-
-                .mm:hover {
-                    color: navy;
-                    background-color: transparent;
-                    border-color: #fffdd0;
-                    background-color:#ADE8F4;
                 }
 
                 #link {
