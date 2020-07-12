@@ -418,6 +418,23 @@
                     font-weight: lighter;
                     padding: 3px 12px;
                 
+               }
+                     .mm1,.mm {
+                    padding: 1.2em 1.7em;
+                    color: #ADE8F4;
+                    background-color: transparent;
+                    font-weight: 400;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    border: 2px solid #ADE8F4;
+                    font-size: 1rem;
+                   }
+
+                .mm1:hover,.mm:hover {
+                    color: navy;
+                    background-color: transparent;
+                    border-color: #fffdd0;
+                    background-color:#ADE8F4;
                 }
                 .footer {
                     display: flex;
@@ -455,11 +472,22 @@
                     width: 15em;
                     margin: auto;
                 }
-                .mm:hover {
-                    padding: .5em 1.2em;
+                .mm1,.mm {
+                    padding: 1.2em 1.7em;
+                    color: #ADE8F4;
                     background-color: transparent;
+                    font-weight: 400;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    border: 2px solid #ADE8F4;
+                    font-size: 1rem;
+                   }
+
+                .mm1:hover,.mm:hover {
                     color: navy;
-                    font-weight: bold;
+                    background-color: transparent;
+                    border-color: #fffdd0;
+                    background-color:#ADE8F4;
                 }
                 .projRow{
                     display: flex;
