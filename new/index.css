@@ -111,15 +111,13 @@
                 .image {
                     border: none;
                     border-radius: 100px;
-                    width: 280px;
-                    height:350px;
-            
+                    width: 200px;
+                    height:270px;
                 }
                 .imageCol{
-                    border: 2px solid #CAf0f8;
                     border-radius: 100px;
-                    width: 280px;
-                    height:350px;
+                    width: 200px;
+                    height:270px;
                     
                 
                 }
@@ -396,11 +394,14 @@
                 .imageCol{
                     align-content: center;
                     margin: auto;
+                    width: 180px;
+                    height: 250px;
                 }
+                
                 .image {
                      border-radius: 100px;
-                     width: 280px;
-                    height: 370px;
+                     width: 180px;
+                    height: 250px;
 
                 }
                 .toggle-button {
