@@ -318,6 +318,8 @@
                     font-weight: lighter;
                     padding: 3px 12px;
                     border: 1px solid #0096C7;
+                    box-shadow: 0 0 10px 2px #151a15;
+
     }
     #arrow{
         color: #00B4D8;
