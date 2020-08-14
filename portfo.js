@@ -1,10 +1,19 @@
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+const navbarLinks2 = document.getElementsByClassName('navbar-link-2')[0]
+const home = document.querySelectorAll('.home');
+
+
+// const divs = document.querySelectorAll('.a');
+
+// home.forEach(el => el.addEventListener('click', ()=> {
+//   console.log(navbarLinks2.target.classList[1]);
+// }));
 
 toggleButton.addEventListener('click', ()=>{
     navbarLinks.classList.toggle('active');
-    
 });
+
 let myBtn = document.querySelector("#myBtn");
 
 window.onscroll = ()=>{scrol()}
@@ -25,9 +34,12 @@ const topFunction = ()=>{document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0}
 
 
+// let open = document.querySelector('.anan');
+// let close = document.querySelector('.home');
 
-
-
+// function open1(){
+//  open.style.display = 'none';
+// };
 
 
 
