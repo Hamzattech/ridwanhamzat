@@ -11,11 +11,17 @@ const home = document.querySelector('.home');
 //   console.log(navbarLinks2.target.classList[1]);
 // }));
 
-toggleButton.addEventListener('click', ()=>{
-    navbarLinks.classList.toggle('active');
+// toggleButton.addEventListener('click', ()=>{
+//     navbarLinks.classList.toggle('active');
+// });
+$(document).ready(()=>{
+    $(".toggle-button").click (()=>{
+        $(".navbar-links").slideToggle(500);
+    });
+    $(".home").click(()=>{
+        $(".navbar-links").slideUp(100);
+    });
 });
-
-
 let myBtn = document.querySelector("#myBtn");
 
 window.onscroll = ()=>{scrol()}
