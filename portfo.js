@@ -11,17 +11,34 @@ const home = document.querySelector('.home');
 //   console.log(navbarLinks2.target.classList[1]);
 // }));
 
-// toggleButton.addEventListener('click', ()=>{
-//     navbarLinks.classList.toggle('active');
-// });
-$(document).ready(()=>{
-    $(".toggle-button").click (()=>{
-        $(".navbar-links").slideToggle(500);
-    });
-    $(".home").click(()=>{
-        $(".navbar-links").slideUp(100);
-    });
+toggleButton.addEventListener('click', ()=>{
+    navbarLinks.classList.toggle('active');
 });
+// $(document).ready(()=>{
+//     $(".toggle-button").click (()=>{
+//         $(".navbar-links").slideToggle(500);
+//         // $(".times").css("display","block");
+//         // $(".toggle-button").fadeOut(10);
+
+//         // $(".times").click(function(){
+//         //     $(".navbar-links").slideUp(500);
+//         //     $(".toggle-button").fadeIn(10);
+//         //     $(".times").fadeOut(10)
+//         // })
+//         // $(".home").click(function(){
+//         //     $(".times").fadeOut(10)
+//         //     $(".toggle-button").css("display","block");
+//         // })
+//     });
+ 
+// });
+// if($(window).width() <= 700){
+//     $(".home").click(function(){
+//         $(".navbar-links").slideUp(500);
+//     })
+//     }
+
+
 let myBtn = document.querySelector("#myBtn");
 
 window.onscroll = ()=>{scrol()}
