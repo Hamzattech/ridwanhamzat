@@ -1,7 +1,8 @@
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 const navbarLinks2 = document.getElementsByClassName('navbar-link-2')[0]
-const home = document.querySelectorAll('.home');
+const home = document.querySelector('.home');
+
 
 
 // const divs = document.querySelectorAll('.a');
@@ -13,6 +14,7 @@ const home = document.querySelectorAll('.home');
 toggleButton.addEventListener('click', ()=>{
     navbarLinks.classList.toggle('active');
 });
+
 
 let myBtn = document.querySelector("#myBtn");
 
@@ -41,7 +43,9 @@ const topFunction = ()=>{document.body.scrollTop = 0;
 //  open.style.display = 'none';
 // };
 
-
+// $(document).ready(function(){
+//     $(".mm1").animate({marginLeft:'30px'},1000);
+// });
 
 
 
