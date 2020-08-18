@@ -1,74 +1,41 @@
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-const navbarLinks2 = document.getElementsByClassName('navbar-link-2')[0]
-const home = document.querySelector('.home');
+  
+// Decclaration section
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+    const navbarLinks2 = document.getElementsByClassName('navbar-link-2')[0]
+    const home = document.querySelectorAll(".home");
+    let myBtn = document.querySelector("#myBtn");
+
+
+    // home toggle on click
+    home.forEach(function(eachhome){
+        eachhome.addEventListener("click",function(){
+            navbarLinks.classList.toggle('active');
+        })
+    })
+            toggleButton.addEventListener('click', ()=>{
+                navbarLinks.classList.toggle('active');
+            });
 
 
 
-// const divs = document.querySelectorAll('.a');
-
-// home.forEach(el => el.addEventListener('click', ()=> {
-//   console.log(navbarLinks2.target.classList[1]);
-// }));
-
-toggleButton.addEventListener('click', ()=>{
-    navbarLinks.classList.toggle('active');
-});
-// $(document).ready(()=>{
-//     $(".toggle-button").click (()=>{
-//         $(".navbar-links").slideToggle(500);
-//         // $(".times").css("display","block");
-//         // $(".toggle-button").fadeOut(10);
-
-//         // $(".times").click(function(){
-//         //     $(".navbar-links").slideUp(500);
-//         //     $(".toggle-button").fadeIn(10);
-//         //     $(".times").fadeOut(10)
-//         // })
-//         // $(".home").click(function(){
-//         //     $(".times").fadeOut(10)
-//         //     $(".toggle-button").css("display","block");
-//         // })
-//     });
- 
-// });
-// if($(window).width() <= 700){
-//     $(".home").click(function(){
-//         $(".navbar-links").slideUp(500);
-//     })
-//     }
+    window.onscroll = ()=>{
+        topbtnDisplay()
+        }
 
 
-let myBtn = document.querySelector("#myBtn");
-
-window.onscroll = ()=>{scrol()}
-
-//top function
-
-
-//function to take button up
-
-const scrol = function(){
- if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-        myBtn.style.display = 'block';
-    }else{
-        myBtn.style.display = 'none';
+const topbtnDisplay = ()=>{
+    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            myBtn.style.display = 'block';
+        }else{
+            myBtn.style.display = 'none';
+        }
     }
-}
-const topFunction = ()=>{document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0}
+        const topFunction = ()=>{document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0
+    }
 
 
-// let open = document.querySelector('.anan');
-// let close = document.querySelector('.home');
-
-// function open1(){
-//  open.style.display = 'none';
-// };
-
-// $(document).ready(function(){
-//     $(".mm1").animate({marginLeft:'30px'},1000);
-// });
 
 
 
