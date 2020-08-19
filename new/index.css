@@ -380,32 +380,14 @@
         }
         .viewmore,.viewless{
             display: none;
-            background-color: transparent;
-            padding: .3rem;
-            border-radius: 10px;
-            color: #1D2951;
-            border-color: #1D2951;
-        }
-        .viewless:hover{
-            background-color: #1D2951;
-            padding: .3rem;
-            border-radius: 5px;
-            color: rgb(222, 248, 182);
-        }
-        .viewmore:hover{
-            background-color: #1D2951;
-            padding: .3rem;
-            border-radius: 5px;
-            color: rgb(222, 248, 182);
         }
         .section-two{
             display: block;
         }
-    
-    
-        
-            
-            #myBtn:hover {
+        .vml{
+            display: none;
+        }
+                 #myBtn:hover {
                 background-color: #ade8f4;
             }
             .tools{
@@ -448,25 +430,40 @@
                     width: 180px;
                     height: 250px;
                 }
-                .viewmore{
+                .section-two{
+                    display: none;
+                }
+                 .viewmore{
                     display: block;
                     font-size: smaller;
+                    padding: .3rem;
+                    border-radius: 5px;
+                    width: 4.5rem;
                 }
                 .viewless{
                     font-size: smaller;
-                }
-                .vml{
-                    position: relative;
-                    left: 4rem;
-                    justify-content: center;
-                    align-self: center;
-                    align-items: center;
-                    width: 10rem;
-                    font-size: small;
-                
+                    padding: .3rem;
+                    border-radius: 5px;
+                    width: 4.5rem;
+                    display: none;
+
                     
                 }
-                
+                .viewless:hover{
+                    background-color: #1D2951;
+                    color: rgb(222, 248, 182);
+                }
+                .viewmore:hover{
+                    background-color: #1D2951;
+                    color: rgb(222, 248, 182);
+                }
+                .vml{
+                    display: block;
+                    width: 10rem;
+                    font-size: small;
+                    border-bottom: 2rem;
+                    transform: translateX(140%);
+                } 
                 
                 .image {
                      border-radius: 100px;
@@ -529,9 +526,7 @@
                         margin: 0px 0px;
                         flex-direction: column;
                 }
-                .section-two{
-                    display: none;
-                }
+             
                 .home{
                     font-weight: lighter;
                     line-height: 1.2;
