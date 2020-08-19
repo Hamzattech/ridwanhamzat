@@ -435,7 +435,7 @@
                     display: flex;
                 }
                 .toggle-button:hover {
-                    transition: all 0.5s ease-in-out;
+                  transition: all 0.5s ease-in-out;
                 }
                 .navbar-links {
                     display: none;
