@@ -361,24 +361,32 @@
         z-index: 100;
     }
             
-        #vc{
+        .vc{
             color: #00B4D8;
             text-decoration: none;
             border: 1px solid #00B4D8;
             padding: .5rem;
             border-radius: 5px;
+            bottom: 5px;
         }
-        #vc:hover{
+        .vc:hover{
             padding: 10px;
         }
         .social + .social{
             margin-left: 1.5rem;
+        }
+        .title{
+            color: rgb(222, 248, 182);
         }
     
         
             
             #myBtn:hover {
                 background-color: #ade8f4;
+            }
+            .tools{
+                color: rgb(222, 248, 182);
+                font-weight: lighter;
             }
 
 
@@ -427,7 +435,6 @@
                     display: flex;
                 }
                 .toggle-button:hover {
-                    transform: rotate(90deg);
                     transition: all 0.5s ease-in-out;
                 }
                 .navbar-links {
@@ -529,7 +536,6 @@
                     font-weight: lighter;
                     line-height: 1.2;
                     margin-left: -10px;
-                    transform: translateY(0);
                 }
                 .navigations {
                     visibility: hidden;
@@ -573,6 +579,7 @@
                 }
                 .navbar-links {
                     transition: all 0.5s linear;
+                    
 
                 }
                 .footer {
