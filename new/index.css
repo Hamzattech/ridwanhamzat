@@ -378,6 +378,24 @@
         .title{
             color: rgb(222, 248, 182);
         }
+        .viewmore,.viewless{
+            display: none;
+            background-color: transparent;
+            padding: .3rem;
+            border-radius: 10px;
+            color: #1D2951;
+            border-color: #1D2951;
+        }
+        .viewmore,.viewless:hover{
+            background-color: #1D2951;
+            padding: .3rem;
+            border-radius: 5px;
+            color: rgb(222, 248, 182);
+        }
+        .section-two{
+            display: block;
+        }
+    
     
         
             
@@ -424,6 +442,25 @@
                     width: 180px;
                     height: 250px;
                 }
+                .viewmore{
+                    display: block;
+                    font-size: smaller;
+                }
+                .viewless{
+                    font-size: smaller;
+                }
+                .vml{
+                    position: relative;
+                    left: 4rem;
+                    justify-content: center;
+                    align-self: center;
+                    align-items: center;
+                    width: 10rem;
+                    font-size: small;
+                
+                    
+                }
+                
                 
                 .image {
                      border-radius: 100px;
@@ -486,6 +523,9 @@
                         margin: 0px 0px;
                         flex-direction: column;
                 }
+                .section-two{
+                    display: none;
+                }
                 .home{
                     font-weight: lighter;
                     line-height: 1.2;
@@ -518,7 +558,7 @@
                     align-items: center;
                     text-align: center;
                 }
-            
+          
             
              
             }

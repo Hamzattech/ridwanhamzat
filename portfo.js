@@ -5,7 +5,33 @@
     const navbarLinks2 = document.getElementsByClassName('navbar-link-2')[0]
     const home = document.querySelectorAll(".home");
     let myBtn = document.querySelector("#myBtn");
+    const viewMore = document.querySelector(".viewmore");
+    const viewLess = document.querySelector(".viewless");
 
+    const sectionTwo = document.querySelector(".section-two");
+
+
+    viewMore.addEventListener("click",function(){
+        sectionTwo.style.display = 'block';
+        viewMore.style.display = "none";
+        viewLess.style.display = "block";
+    });
+    viewLess.addEventListener("click",function(){
+        sectionTwo.style.display = 'none';
+        viewMore.style.display = "block";
+        viewLess.style.display = "none";
+    });
+
+
+    
+
+// function displayViewMore(){
+//     if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+//         viewMore.style.display = 'block';
+//     }else{
+//         viewMore.style.display = "none";
+//     }
+// }
 
     // home toggle on click
     home.forEach(function(eachhome){
@@ -20,7 +46,8 @@
 
 
     window.onscroll = ()=>{
-        topbtnDisplay()
+        topbtnDisplay();
+        displayViewMore();
         }
 
 
