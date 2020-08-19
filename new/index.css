@@ -386,7 +386,13 @@
             color: #1D2951;
             border-color: #1D2951;
         }
-        .viewmore,.viewless:hover{
+        .viewless:hover{
+            background-color: #1D2951;
+            padding: .3rem;
+            border-radius: 5px;
+            color: rgb(222, 248, 182);
+        }
+        .viewmore:hover{
             background-color: #1D2951;
             padding: .3rem;
             border-radius: 5px;
