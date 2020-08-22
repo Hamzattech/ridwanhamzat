@@ -65,12 +65,7 @@
                     color: #89CFF0;
                     margin-top: 10px;
                 }
-                .toggle-button:hover{
-                    transform: rotate(90deg);
-                }
-              
-
-                .toggle-button .bar {
+               .toggle-button .bar {
                     height: 2px;
                     width: 100%;
                     background-color: #89CFF0;
@@ -78,9 +73,7 @@
                     font-weight: bolder;
                     display: none;
                      
-                }
-          
-                
+                }      
                 .hr{
                     font-size: 4.5rem;
                     line-height: 1;
