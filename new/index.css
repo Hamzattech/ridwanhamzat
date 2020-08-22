@@ -27,7 +27,8 @@
                     margin: .5rem;
                 }
     .logo {
-               margin-top: 10px;
+               width: auto;
+               height: 30px;
             } 
 
                 .navbar-links ul {
@@ -66,12 +67,12 @@
                     margin-top: 10px;
                 }
                 .toggle-button:hover{
-                    transform: rotate(90deg);
+                transform: scaleY(1.1);
+                transition: all 0.5s linear;
                 }
-              
 
                 .toggle-button .bar {
-                    height: 2px;
+                    height: 2.5px;
                     width: 100%;
                     background-color: #89CFF0;
                     border-radius: 10px;
@@ -457,11 +458,10 @@
                 }
             
                 .vml{
-                    display: block;
+                    display: flex;
                     width: 10rem;
                     font-size: small;
-                    border-bottom: 2rem;
-                    transform: translateX(140%);
+                    margin-left: 43%;
                 } 
                 
                 .image {
@@ -471,7 +471,9 @@
 
                 }
                 .toggle-button {
+                    height: 1.8rem;
                     display: flex;
+                    margin-top: -5px;
                 }
               
                 .toggle-button .bar {
@@ -493,6 +495,7 @@
 
                 }
                 .navbar {
+                    
                     flex-direction: column;
                     align-items: flex-start;
                 }
