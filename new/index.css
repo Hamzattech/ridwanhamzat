@@ -27,7 +27,8 @@
                     margin: .5rem;
                 }
     .logo {
-               margin-top: 10px;
+               Width:auto;
+               height:20px
             } 
 
                 .navbar-links ul {
@@ -437,9 +438,7 @@
                     border-radius: 5px;
                     width: 4.5rem;
                     display: none;
-
-                    
-                }
+   }
                 .viewless:hover{
                     background-color: #1D2951;
                     color: rgb(222, 248, 182);
