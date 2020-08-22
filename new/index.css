@@ -66,6 +66,7 @@
                     color: #89CFF0;
                     margin-top: 10px;
                 }
+
                 .toggle-button:hover{
                 transform: scaleY(1.1);
                 transition: all 0.5s linear;
@@ -73,15 +74,16 @@
 
                 .toggle-button .bar {
                     height: 2.5px;
-                    width: 100%;
+
+           
+
+                   width: 100%;
                     background-color: #89CFF0;
                     border-radius: 10px;
                     font-weight: bolder;
                     display: none;
                      
-                }
-          
-                
+                }      
                 .hr{
                     font-size: 4.5rem;
                     line-height: 1;
@@ -445,9 +447,7 @@
                     border-radius: 5px;
                     width: 4.5rem;
                     display: none;
-
-                    
-                }
+   }
                 .viewless:hover{
                     background-color: #1D2951;
                     color: rgb(222, 248, 182);
@@ -486,7 +486,7 @@
                     
                 }
                 .toggle-button:hover {
-                    transition: all 0.5s ease-in-out;
+                  transition: all 0.5s ease-in-out;
                 }
                 .navbar-links {
                     display: none;
