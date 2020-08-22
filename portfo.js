@@ -2,13 +2,15 @@
 // Decclaration section
     const toggleButton = document.getElementsByClassName('toggle-button')[0]
     const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-    const navbarLinks2 = document.getElementsByClassName('navbar-link-2')[0]
+    // const navbarLinks2 = document.getElementsByClassName('navbar-link-2')[0]
     const home = document.querySelectorAll(".home");
     let myBtn = document.querySelector("#myBtn");
     const viewMore = document.querySelector(".viewmore");
     const viewLess = document.querySelector(".viewless");
-
+    // const removeBtn = document.querySelector(".remove-btn");
     const sectionTwo = document.querySelector(".section-two");
+
+
 
 
     viewMore.addEventListener("click",function(){
@@ -41,7 +43,7 @@
     })
             toggleButton.addEventListener('click', ()=>{
                 navbarLinks.classList.toggle('active');
-            });
+        });
 
 
 
