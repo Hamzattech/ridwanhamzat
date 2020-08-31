@@ -15,6 +15,25 @@
     body{
             background-image: radial-gradient(circle, #1D2951,#0E4D92);
         }
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--clr-white);
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            visibility: visible;
+            z-index: 999;
+            transition: all 0.5s ease-in-out;
+          }
+          .hide-preloader {
+            z-index: -999;
+            visibility: hidden;
+          }
+          
 
     .navbar {
              display: flex;
@@ -492,7 +511,7 @@
                 }
                 .navbar-links {
                     display: none;
-                    margin-left: 0;
+                    margin-left: 9px;
                     transition: all 0.5s linear;
 
                 }

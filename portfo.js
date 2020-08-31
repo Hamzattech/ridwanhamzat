@@ -9,6 +9,15 @@
     const viewLess = document.querySelector(".viewless");
     // const removeBtn = document.querySelector(".remove-btn");
     const sectionTwo = document.querySelector(".section-two");
+    const preloader = document.querySelector(".preloader");
+    const date = document.getElementById("date");
+
+    date.innerHTML = new Date().getFullYear();
+    
+    
+    window.addEventListener("load",function(){
+        preloader.classList.add("hide-preloader");
+    })
 
 
 
@@ -63,6 +72,8 @@ const topbtnDisplay = ()=>{
         const topFunction = ()=>{document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0
     }
+
+
 
 
 
