@@ -12,6 +12,9 @@
             font-size: 16px;
             line-height: 2.0;
         }
+        html{
+            scroll-behavior: smooth;
+        }
     body{
             background-image: radial-gradient(circle, #1D2951,#0E4D92);
         }
