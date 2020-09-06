@@ -44,6 +44,15 @@
              align-items: center;
              background-color: #1D2951;
              }
+             .fixed-nav{
+                 position: fixed;
+                 left: 0;
+                 top: 0;
+                 width: 100%;
+                 box-shadow: 0 0 3px 3px black;
+                 background-color:#1D2951;
+                 z-index: 99;
+             }
     .brand-title{
                     font-size: 1.5rem;
                     margin-top: 1rem;

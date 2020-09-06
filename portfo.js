@@ -2,7 +2,6 @@
 // Decclaration section
     const toggleButton = document.getElementsByClassName('toggle-button')[0]
     const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-    // const navbarLinks2 = document.getElementsByClassName('navbar-link-2')[0]
     const home = document.querySelectorAll(".home");
     let myBtn = document.querySelector("#myBtn");
     const viewMore = document.querySelector(".viewmore");
@@ -11,6 +10,29 @@
     const sectionTwo = document.querySelector(".section-two");
     const preloader = document.querySelector(".preloader");
     const date = document.getElementById("date");
+    const navBar = document.querySelector(".navbar");
+    const scrollLinks = document.querySelectorAll(".scroll-links");
+    const linksContainer = document.querySelector(".links-container");
+    console.log(scrollLinks);
+
+    scrollLinks.forEach(function(eachLink){
+        eachLink.addEventListener("click",function(e){
+            e.preventDefault();
+
+            const id = e.currentTarget.getAttribute('href').slice(1);
+            const elem = document.getElementById(id);
+            const navHeight = navBar.getBoundingClientRect().height;
+            const containerHeight = navbarLinks.getBoundingClientRect().height;
+            const fixedNav = navBar.classList.contains("fixed-nav");
+            let position = elem.offsetTop - navHeight;
+
+            window.scrollTo({
+                left:0,
+                top:position,
+            });
+        })
+    })
+
 
     date.innerHTML = new Date().getFullYear();
     
@@ -20,7 +42,14 @@
     })
 
     window.addEventListener("scroll",function(){
-        console.log(window.pageYOffset);
+        const navbarHeight = navBar.getBoundingClientRect().height;
+        const scrollHeight = window.pageYOffset;
+        if(scrollHeight > navbarHeight){
+            navBar.classList.add("fixed-nav");
+        }
+        else{
+            navBar.classList.remove("fixed-nav");
+        }
     })
 
 
