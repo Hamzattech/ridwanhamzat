@@ -6,15 +6,15 @@
     let myBtn = document.querySelector("#myBtn");
     const viewMore = document.querySelector(".viewmore");
     const viewLess = document.querySelector(".viewless");
-    // const removeBtn = document.querySelector(".remove-btn");
     const sectionTwo = document.querySelector(".section-two");
     const preloader = document.querySelector(".preloader");
     const date = document.getElementById("date");
     const navBar = document.querySelector(".navbar");
     const scrollLinks = document.querySelectorAll(".scroll-links");
     const linksContainer = document.querySelector(".links-container");
-    console.log(scrollLinks);
 
+
+    //smooth scroll
     scrollLinks.forEach(function(eachLink){
         eachLink.addEventListener("click",function(e){
             e.preventDefault();
@@ -25,7 +25,12 @@
             const containerHeight = navbarLinks.getBoundingClientRect().height;
             const fixedNav = navBar.classList.contains("fixed-nav");
             let position = elem.offsetTop - navHeight;
-
+            if(!fixedNav){
+                position-= navHeight;
+            }
+            if(fixedNav > 50){
+                position+=containerHeight;
+            }
             window.scrollTo({
                 left:0,
                 top:position,
@@ -69,17 +74,10 @@
 
     
 
-// function displayViewMore(){
-//     if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-//         viewMore.style.display = 'block';
-//     }else{
-//         viewMore.style.display = "none";
-//     }
-// }
 
     // home toggle on click
     home.forEach(function(eachhome){
-        eachhome.addEventListener("click",function(){
+        eachhome.addEventListener("click",()=>{
             navbarLinks.classList.toggle('active');
         })
     })
@@ -94,7 +92,7 @@
         displayViewMore();
         }
 
-
+//top button display
 const topbtnDisplay = ()=>{
     if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
             myBtn.style.display = 'block';
