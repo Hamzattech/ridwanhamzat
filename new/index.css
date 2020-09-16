@@ -24,7 +24,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: var(--clr-white);
+            background: transparent;
             display: grid;
             justify-content: center;
             align-items: center;
@@ -35,6 +35,25 @@
           .hide-preloader {
             z-index: -999;
             visibility: hidden;
+          }
+          svg{
+              color: transparent;
+          }
+          svg > text{
+            stroke: #0077B6;
+            font-size:100px;
+            font-weight: 700;
+            stroke-width: 2;
+            animation: text-animate 2s infinite alternate;
+          }
+
+          @keyframes text-animate{
+              0%{
+                  stroke-dasharray: 0 50%;
+              }
+              100%{
+                  stroke-dasharray: 50% 0;
+              }
           }
           
 
