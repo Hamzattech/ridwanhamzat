@@ -34,10 +34,10 @@
             transition: all 0.5s ease-in-out;
             background-size: contain;
           }
-          /* .hide-preloader {
+          .hide-preloader {
             z-index: -999;
             visibility: hidden;
-          } */
+          }
           svg{
               color: transparent;
           }
@@ -469,10 +469,10 @@
                     transition: all 0.5s ease-in-out;
                     background-size: contain;
                   }
-                  /* .hide-preloader {
+                  .hide-preloader {
                     z-index: -999;
                     visibility: hidden;
-                  } */
+                  }
                   svg{
                       color: transparent;
                   }
