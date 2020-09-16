@@ -28,21 +28,23 @@
             display: grid;
             justify-content: center;
             align-items: center;
+            margin: auto;
             visibility: visible;
             z-index: 999;
             transition: all 0.5s ease-in-out;
+            background-size: contain;
           }
-          .hide-preloader {
+          /* .hide-preloader {
             z-index: -999;
             visibility: hidden;
-          }
+          } */
           svg{
               color: transparent;
           }
           svg > text{
-            stroke: #0077B6;
-            font-size:100px;
-            font-weight: 700;
+            stroke: #ffffff;
+            font-size:150px;
+            font-weight: 900;
             stroke-width: 2;
             animation: text-animate 2s infinite alternate;
           }
@@ -451,6 +453,45 @@
                 * {
                     font-size: 16px;
                 }
+                .preloader {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: transparent;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+                    visibility: visible;
+                    z-index: 999;
+                    transition: all 0.5s ease-in-out;
+                    background-size: contain;
+                  }
+                  /* .hide-preloader {
+                    z-index: -999;
+                    visibility: hidden;
+                  } */
+                  svg{
+                      color: transparent;
+                  }
+                  svg > text{
+                    stroke: #ffffff;
+                    font-size:150px;
+                    font-weight: 900;
+                    stroke-width: 2;
+                    animation: text-animate 2s infinite alternate;
+                  }
+        
+                  @keyframes text-animate{
+                      0%{
+                          stroke-dasharray: 0 50%;
+                      }
+                      100%{
+                          stroke-dasharray: 50% 0;
+                      }
+                  }
                 .hr{
                     font-size: 2rem;
                     line-height: 1;
