@@ -178,12 +178,12 @@
                 }
                 .image {
                     border: none;
-                    border-radius: 100px;
+                    border-radius: 50%;
                     width: 200px;
                     height:270px;
                 }
                 .imageCol{
-                    border-radius: 100px;
+                    border-radius: 50%;
                     width: 200px;
                     height:270px;
                     
@@ -341,6 +341,7 @@
                 #aboutme{
                     display: flex;
                     margin: 0px 50px;
+                    align-items: center;
                 }
 
                 .cMeRow {
@@ -558,7 +559,7 @@
                 } 
                 
                 .image {
-                     border-radius: 100px;
+                     border-radius: 50%;
                      width: 180px;
                     height: 250px;
 
