@@ -46,16 +46,19 @@
         preloader.classList.add("hide-preloader");
     })
 
-    window.addEventListener("scroll",function(){
-        const navbarHeight = navBar.getBoundingClientRect().height;
-        const scrollHeight = window.pageYOffset;
-        if(scrollHeight > navbarHeight){
-            navBar.classList.add("fixed-nav");
-        }
-        else{
-            navBar.classList.remove("fixed-nav");
-        }
-    })
+    // window.addEventListener("scroll",function(){
+    //     const navbarHeight = navBar.getBoundingClientRect().height;
+    //     const scrollHeight = window.pageYOffset;
+    //     if(scrollHeight > navbarHeight){
+    //         navBar.classList.add("fixed-nav");
+    //     }
+    //     else if(scrollHeight == 100){
+    //         navBar.classList.remove("fixed-nav");
+    //     }
+    //     else{
+    //         navBar.classList.remove("fixed-nav");
+    //     }
+    // })
 
 
 
