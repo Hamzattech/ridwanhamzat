@@ -740,7 +740,7 @@
                 }
                 .footer {
                     display: flex;
-                    background-color: var(--backgroundColor);;
+                    background-color: rgb(42, 42, 109);
                     padding: .5em;
                     justify-content: center;
                     color: #89CFF0;
